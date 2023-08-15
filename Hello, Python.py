@@ -33,3 +33,23 @@ print("Height in meters =", total_height_meters, "?")
 
 total_height_meters = (hat_height_cm + my_height_cm) / 100
 print("Height in meters =", total_height_meters)
+
+# Builtin functions for working with numbers
+
+print(min(1, 2, 3))
+print(max(1, 2, 3))
+
+# abs returns the absolute value of an argument:
+
+print(abs(32))
+print(abs(-32))
+
+# In addition to being the names of Python's two main numerical types, int and float can also
+# be called as functions which convert their arguments to the corresponding type:
+
+print(float(10))
+print(int(3.33))
+# They can even be called on strings!
+print(int('807') + 1)
+
+print(-a(1))
