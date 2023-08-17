@@ -68,3 +68,11 @@ print(
     least_difference(5, 6, 7), # Python allows trailing commas in argument lists. How nice is that?
 
 
+bag_of_candies = ["chocolate", "lollipop", "gummy bear", "caramel"]
+
+# Our helpful loop friend will go through the bag and do something to each candy
+for candy in bag_of_candies:
+    print("Giving a high-five to:", candy)
+
+# After the loop, our friend tells us they're done
+print("All candies have been given high-fives!")
