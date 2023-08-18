@@ -76,3 +76,34 @@ for candy in bag_of_candies:
 
 # After the loop, our friend tells us they're done
 print("All candies have been given high-fives!")
+
+
+
+## Functions and arguments
+
+
+def greet(who="Colin"):
+    print("Hello,", who)
+    
+greet()
+greet(who="Kaggle")
+# (In this case, we don't need to specify the name of the argument, because it's unambiguous.)
+greet("world")
+
+
+def mult_by_five(x):
+    return 5 * x
+
+def call(fn, arg):
+    """Call fn on arg"""
+    return fn(arg)
+
+def squared_call(fn, arg):
+    """Call fn on the result of calling fn on arg"""
+    return fn(fn(arg))
+
+print(
+    call(mult_by_five, 1),
+    squared_call(mult_by_five, 1), 
+    sep='\n', # '\n' is the newline character - it starts a new line
+)
