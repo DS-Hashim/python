@@ -1,3 +1,2 @@
-# print("hello world")
-
-help("keywords")
+a = "I Love Python"
+print(len(a))
