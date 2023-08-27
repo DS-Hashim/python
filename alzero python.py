@@ -51,15 +51,36 @@
 
 # replace (Old Value, New Value, Count)
 
-a = "Hello One Two Three One One"
-print(a.replace("One", "1"))
+# a = "Hello One Two Three One One"
+# print(a.replace("One", "1"))
 
-print(a.replace("One", "1", 1))
+# print(a.replace("One", "1", 1))
 
 
-print(a.replace("One", "1", 2))
+# print(a.replace("One", "1", 2))
 
-# join(iterable)
+# # join(iterable)
 
-myList = ["Hashim", "Mohammed", "Nasser"]
-print(" ".join(myList))
+# myList = ["Hashim", "Mohammed", "Nasser"]
+# print(" ".join(myList))
+
+
+
+
+# ----------------------------
+# ---- Strings Formating -----
+# ----------------------------
+
+Name = "Hashim"
+Age = 29
+rank = 10.0
+
+print("My Name is: " + Name)
+# print("My Name is: " + name + "and My Age is: " + age)  # Type Error
+
+print("My Name is: %s" % "Hashim")
+print("My Name is: %s and My Age is: %d and My rank is: %f" % (Name, Age, rank))
+
+# %s => String
+# %d => Number, intr
+# %f => Float
