@@ -71,16 +71,37 @@
 # ---- Strings Formating -----
 # ----------------------------
 
-Name = "Hashim"
-Age = 29
-rank = 10.0
+# Name = "Hashim"
+# Age = 29
+# rank = 10.0
 
-print("My Name is: " + Name)
-# print("My Name is: " + name + "and My Age is: " + age)  # Type Error
+# print("My Name is: " + Name)
+# # print("My Name is: " + name + "and My Age is: " + age)  # Type Error
 
-print("My Name is: %s" % "Hashim")
-print("My Name is: %s and My Age is: %d and My rank is: %f" % (Name, Age, rank))
+# print("My Name is: %s" % "Hashim")
+# print("My Name is: %s and My Age is: %d and My rank is: %f" % (Name, Age, rank))
 
-# %s => String
-# %d => Number, intr
-# %f => Float
+# # %s => String
+# # %d => Number, intr
+# # %f => Float
+
+
+# ----------------------------
+# --------- Numbers ----------
+# ----------------------------
+
+# Integer
+
+print(type(1))
+
+# Float
+
+print(type(1.1))
+
+# complex 
+
+print(type(5+6j))
+
+# [1] You Can Convert From Int To Float or complex.
+# [2] You Can Convert From Float To Int or complex.
+# [3] You Can Convert From Complex Any Type.
