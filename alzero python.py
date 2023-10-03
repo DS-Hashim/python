@@ -92,16 +92,20 @@
 
 # Integer
 
-print(type(1))
+# print(type(1))
 
-# Float
+# # Float
 
-print(type(1.1))
+# print(type(1.1))
 
-# complex 
+# # complex 
 
-print(type(5+6j))
+# print(type(5+6j))
 
-# [1] You Can Convert From Int To Float or complex.
-# [2] You Can Convert From Float To Int or complex.
-# [3] You Can Convert From Complex Any Type.
+# # [1] You Can Convert From Int To Float or complex.
+# # [2] You Can Convert From Float To Int or complex.
+# # [3] You Can Convert From Complex Any Type.
+
+# ----------------------------
+# --------- Numbers ----------
+# ----------------------------
